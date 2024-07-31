@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Thinking for iPhone 15</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            display: none;
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        section#frontpage {
+            display: block;
+            background-color: #2980b9;
+            color: #fff;
+            text-align: center;
+        }
+
+        section#empathize {
+            background-color: #e74c3c;
+            color: #fff;
+        }
+
+        section#define {
+            background-color: #f1c40f;
+            color: #fff;
+        }
+
+        section#ideate {
+            background-color: #8e44ad;
+            color: #fff;
+        }
+
+        section#prototype {
+            background-color: #27ae60;
+            color: #fff;
+        }
+
+        section#test {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        section#thankyou {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+        }
+
+        section.active {
+            display: block;
+        }
+
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        nav a {
+            margin: 0 10px;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #2c3e50;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            background-color: #1a242f;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #2c3e50;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            font-size: 0.8em; /* Smaller font size */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Design Thinking and Methodology for iPhone 15</h1>
+        <p>An Approach to Innovative Product Development</p>
+    </header>
+    <main>
+        <section id="frontpage">
+            <h2>Welcome to the iPhone 15 Design Journey</h2>
+            <p>Discover the innovative process behind the creation of the iPhone 15.</p>
+            <p>We follow the Design Thinking methodology to bring you the best user experience.</p>
+        </section>
+        <section id="empathize">
+            <h2>Stage 1: Empathize</h2>
+            <p>Gain a deep understanding of user needs through interviews, surveys, and observations. This helps uncover insights into user behavior and preferences.</p>
+            <ul>
+                <li><strong>User Interviews:</strong> Conduct interviews with current iPhone users and potential customers to gather insights on their experiences, preferences, and frustrations.</li>
+                <li><strong>Surveys:</strong> Distribute surveys to a larger audience to gather quantitative data on user preferences and common issues.</li>
+                <li><strong>Observations:</strong> Observe how users interact with their current phones in different environments (home, work, travel) to identify usability issues and opportunities for improvement.</li>
+                <li><strong>Focus Groups:</strong> Organize focus groups to discuss what features users love and what improvements they desire in the next iPhone model.</li>
+            </ul>
+        </section>
+        <section id="define">
+            <h2>Stage 2: Define</h2>
+            <p>Analyze gathered data to identify core problems. Create user personas and problem statements to clearly define challenges and opportunities.</p>
+            <ul>
+                <li><strong>Journey Maps:</strong> Map out the user journey to identify key pain points and moments of delight.</li>
+                <li><strong>Problem Statements:</strong> Develop clear problem statements based on the insights gathered during the empathize stage. Example: "Users need an iPhone that offers significantly longer battery life and enhanced camera functionality because they want to stay connected and capture high-quality photos without frequent charging."</li>
+            </ul>
+        </section>
+        <section id="ideate">
+            <h2>Stage 3: Ideate</h2>
+            <p>Brainstorm and generate a wide range of creative solutions. Encourage thinking outside the box to develop innovative approaches to the problems.</p>
+            <ul>
+                <li><strong>Brainstorming Sessions:</strong> Conduct brainstorming sessions with the product team to come up with innovative features and solutions.</li>
+                <li><strong>Mind Mapping:</strong> Use mind maps to visually organize ideas and explore various possibilities.</li>
+                <li><strong>Sketching:</strong> Create rough sketches of potential design solutions and features. Example: Ideas generated might include a new battery technology that extends battery life, advanced camera features with AI enhancements, and a more durable design using stronger materials.</li>
+            </ul>
+        </section>
+        <section id="prototype">
+            <h2>Stage 4: Prototype</h2>
+            <p>Create tangible representations of your ideas. Use low and high-fidelity prototypes to visualize and test solutions, making it easier to refine concepts.</p>
+            <ul>
+                <li><strong>Low-Fidelity Prototypes:</strong> Create simple mockups or models of the new features and design changes using materials like paper, foam, or basic digital tools.</li>
+                <li><strong>High-Fidelity Prototypes:</strong> Develop more polished prototypes that closely resemble the final product, including working models with new hardware and software features. Example: Develop a high-fidelity prototype of the iPhone 15 with the new battery technology, improved camera system, and a redesigned, more durable casing.</li>
+            </ul>
+        </section>
+        <section id="test">
+            <h2>Stage 5: Test</h2>
+            <p>Test prototypes with real users to gather feedback. This iterative process helps identify strengths and weaknesses, ensuring the final product meets user needs.</p>
+            <ul>
+                <li><strong>User Testing:</strong> Conduct usability testing sessions where users interact with the prototype to perform various tasks and provide feedback.</li>
+                <li><strong>Surveys and Interviews:</strong> Gather additional feedback through surveys and follow-up interviews to understand user experiences and any remaining pain points.</li>
+                <li><strong>Iteration:</strong> Use the feedback to make iterative improvements to the prototype, refining the design and features based on user input.</li>
+            </ul>
+        </section>
+        <section id="thankyou">
+            <h2>Thank you!</h2>
+            <p>Presented by Balaji Madhan, Jeevan, Dhishanth, Gunaseelan</p>
+        </section>
+        <nav>
+            <a href="#" id="prevBtn">Previous</a>
+            <a href="#" id="nextBtn">Next</a>
+        </nav>
+    </main>
+    <footer>
+        <p>© 2024 Design Thinking and Methodology for iPhone 15</p>
+    </footer>
+    <script>
+        const sections = document.querySelectorAll('section');
+        let currentSection = 0;
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            sections[currentSection].classList.remove('active');
+            currentSection = (currentSection + 1) % sections.length;
+            sections[currentSection].classList.add('active');
+        });
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            sections[currentSection].classList.remove('active');
+            currentSection = (currentSection - 1 + sections.length) % sections.length;
+            sections[currentSection].classList.add('active');
+        });
+    </script>
+</body>
+</html>
